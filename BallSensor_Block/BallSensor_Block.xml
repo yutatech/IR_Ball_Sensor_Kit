@@ -1,4 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="pulsein" id="134" x="438" y="-1062">
+    <field name="PIN">2</field>
+    <field name="type">LOW</field>
+    <field name="TIMEOUT">2000</field>
+  </block>
   <block type="variables_set" id="1" inline="true" x="233" y="-715">
     <field name="TYPE">Number</field>
     <field name="VAR">data1</field>
@@ -400,7 +405,7 @@
                                                                       </block>
                                                                     </statement>
                                                                     <next>
-                                                                      <block type="serial_println" id="90" inline="false">
+                                                                      <block type="serial_println" id="77" inline="false">
                                                                         <value name="CONTENT">
                                                                           <block type="math_arithmetic" id="78" inline="true">
                                                                             <field name="OP">MINUS</field>

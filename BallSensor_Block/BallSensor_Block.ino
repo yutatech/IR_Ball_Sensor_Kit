@@ -35,6 +35,8 @@ void setup()
 
 void loop()
 {
+  pulseIn(2,LOW,2000);
+
   data1 = pulseIn(2,LOW,2000);
   data2 = pulseIn(3,LOW,2000);
   data3 = pulseIn(4,LOW,2000);
